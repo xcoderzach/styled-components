@@ -32,6 +32,8 @@ const keyframes = _keyframes(generateAlphabeticName, stringifyRules, css)
 const injectGlobal = _injectGlobal(stringifyRules, css)
 const styled = _styled(StyledComponent, constructWithOptions)
 
+console.log('running the fast branch of styled-components')
+
 /* Export everything */
 export default styled
 export {
